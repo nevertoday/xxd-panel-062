@@ -49,15 +49,16 @@ These four works reuse the corresponding independent sources and are regenerated
 <!-- xxd-human-intro:start -->
 ## Where this Panel fits — and what it solves
 
-When a photograph needs to become a poster, cover, social asset, or wallpaper, the real design problem is rarely a simple change of style. The challenge is to redesign it while preserving identity, key relationships, mood, and recognisability.
+Some photographs derive their charm from one very small gesture, expression, or relationship. Render the scene too completely and the moment disappears beneath the detail; turn it into clean vectors and the human touch and humour are lost. Add too many colours and the one highlight that should be remembered no longer stands out.
 
-**Panel 062** is suited to work that must retain the source's essential content while pursuing this visual direction: **Use naive black lines and an accent color from the source image to preserve the smart moments of the photo**. It begins with intended use and desired outcome; layout, size, text, and delivery format follow from those needs.
+**Panel 062** compresses a complex scene into one central graphic and a handful of symbols. Slightly awkward black lines preserve identity, while a single lively accent colour from the source is allowed to remain. Professional composition supports the imperfections, so the result feels restrained from a distance and warm up close.
 
 ### Use it when
 
-- **Content must remain anchored:** people, objects, actions, and relationships should not be replaced by an unrelated template.
-- **The image needs stronger expression:** you want a clearer editorial language, artistic treatment, or narrative focus.
-- **Delivery must stay flexible:** one source needs comparison layouts, design-only artwork, multiple ratios, or a wallpaper set.
+- **You want to distil one clever moment from a complex photograph:** the subject's identity and key relationship must remain, while the background and secondary details can step away.
+- **You like naïve lines but do not want a child's doodle:** wobble, broken strokes, and visible corrections need to coexist with mature scale, balance, and negative space.
+- **You want colour to become the memory cue:** keep only one accent colour from the source, so a multicolour palette cannot steal the focus.
+- **You need flexible delivery:** it supports top–bottom and left–right comparisons, design-only artwork, multiple ratios, four-device wallpaper sets, and batch processing of image folders.
 
 ### A simple way to begin
 
@@ -65,7 +66,7 @@ You do not need to review every option first. Send your Agent an image and say:
 
 > Use XXD Panel 062 on this image and recommend the best layout and size first.
 
-Review the samples below if you want to confirm the visual direction first. When you are ready, continue to [Get started](#get-started). Full modes, sizes, and parameters remain available in the expandable reference.
+Use the samples above to confirm the visual direction. When you are ready, continue to [Get started](#get-started). Full modes, sizes, and parameters remain available in the expandable reference.
 <!-- xxd-human-intro:end -->
 
 ## Original prompt · Five languages
