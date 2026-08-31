@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦁 XXD Panel 062
+# 🦁 XXD Panel 062｜聪明笨拙线
 
 ### 用稚拙黑线和一枚源图强调色保留照片的聪明瞬间
 

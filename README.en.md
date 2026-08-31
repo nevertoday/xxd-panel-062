@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦁 XXD Panel 062
+# 🦁 XXD Panel 062｜Clever Clumsy Line
 
 ### Use naive black lines and an accent color from the source image to preserve the smart moments of the photo
 
