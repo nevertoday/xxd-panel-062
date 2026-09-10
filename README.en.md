@@ -65,6 +65,15 @@ You do not need to review every option first. Send your Agent an image and say:
 Use the samples above to confirm the visual direction. When you are ready, continue to [Get started](#get-started). Full modes, sizes, and parameters remain available in the expandable reference.
 <!-- xxd-human-intro:end -->
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · Five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -85,24 +94,6 @@ Panel 062 compresses complex photos into a core graphic and a small number of au
 | **How it respects your source** | Recognizable identity, relationships, structure, and supplied facts stay anchored. Styling reorganizes the visual language instead of replacing your content with an unrelated template. |
 | **Where you can use it** | Create top-bottom, left-right, design-only, and four-device wallpaper outputs in multiple ratios or exact sizes. Delivery changes; the Panel's style identity does not get diluted. |
 <!-- xxd-panel-benefit:end -->
-
-## How it turns your source into a distinctive result
-
-It compresses a complex photograph into one immediately recognizable core form and a few supporting marks. Unsteady black drawing preserves identity and relationships, while a single vivid colour remembered from the source carries the accent; professional spacing supports the deliberate imperfection.
-
-```text
-lock identity, contour, and key relationships → compress them into one core form → build black line through wobble, breaks, and correction marks → retain one memory colour from the source → establish professional order through scale contrast and space → add only a trace of handwritten observation
-```
-
-## What makes the finished style recognizable
-
-- One core form and a few necessary symbols carry the whole story; the complicated scene is deliberately reduced.
-- Black lines wobble, break, search, and exaggerate naively instead of becoming polished digital line art.
-- Only one source-derived accent colour appears, in a very small area, like a vivid detail retained by memory.
-- The subject may sit off-centre, float, or rest low while large empty areas actively shape the composition.
-- From afar it reads as restrained and professional; up close it feels warm, odd, and visibly corrected—the intended intelligent awkwardness.
-
-Aesthetic constraints and rejection rules live only in the [original source brief](references/original-prompt/zh-CN.md); the Skill and runtime adapter handle delivery variables only. [Skill workflow](SKILL.md) · [English runtime adapter](references/xxd-panel-062-prompt.en.md)
 
 <details>
 <summary><strong>Full capabilities and parameters (open when needed)</strong></summary>
