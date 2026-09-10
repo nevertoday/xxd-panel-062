@@ -75,6 +75,17 @@
 上方样张可用于确认视觉方向；准备开始时，直接前往[开始使用](#开始使用)。完整模式、尺寸和参数收录在后面的折叠资料中，可按需查阅。
 <!-- xxd-human-intro:end -->
 
+<!-- xxd-panel-benefit:start -->
+## 快速判断：XXD Panel 062 适合你吗？
+
+| 你关心的问题 | 这套风格给你的回答 |
+|---|---|
+| **你会得到什么** | 用稚拙黑线和一枚源图强调色保留照片的聪明瞬间 |
+| **一眼可辨的特点** | 稚拙黑线 · 单一强调色 · 聪明笨拙 · 极浅纸底 · 编辑留白 |
+| **它如何尊重你的输入** | 保留输入中可辨认的身份、关系、结构与事实；风格化负责重新组织视觉语言，不把你的内容替换成无关模板。 |
+| **可以用在哪里** | 可生成上下、左右、纯设计画面和四端壁纸，并支持多个比例与准确尺寸；交付形式会变化，这套 Panel 的风格身份不会被稀释。 |
+<!-- xxd-panel-benefit:end -->
+
 ## 使用窍门
 
 - **先给一张清楚的照片：** 先选一张主体、动作和关系都容易辨认的图，再决定输出方式与比例。
@@ -83,6 +94,31 @@
 - **文字有三种选择：** 让模型按图片智能生成、用 `--text exact --copy` 锁定逐字文案，或用 `--text none` 完全不要文字。
 - **说明现实区与设计区：** 上下或左右对照时，注明哪一侧保留照片、哪一侧负责设计转译；纯设计和壁纸则说明整张画布都要重新设计。
 - **先单张试，再批量做：** 先用一张图确认模式、比例、文字和语言，再把同一套参数用于目录批处理；每轮只改一个变量，结果更容易比较。
+
+## 开始使用
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-062.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-062" ~/.codex/skills/xxd-panel-062
+```
+
+也可以直接使用 `npx skills` 安装：
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-062 --skill xxd-panel-062
+```
+
+该命令会从 GitHub 获取仓库，并把同名 Skill 安装到当前 Agent。若要安装到用户级 Codex Skills 目录，可在命令末尾加上 `--global --agent codex --yes`。
+
+Claude Code 用户可把同一文件夹链接到 `~/.claude/skills/xxd-panel-062`. 安装后请重启 Agent 会话。
+
+```text
+$xxd-panel-062
+Use this photograph, ask me for the modes and copy setting, then generate fresh raster outputs.
+```
+
+完整规格: [Skill 工作流](SKILL.md) · [原始风格档案](references/original-prompt/zh-CN.md) · [英文运行适配器](references/xxd-panel-062-prompt.en.md) · [中文运行适配器](references/xxd-panel-062-prompt.zh-CN.md)
 
 ## 原始提示词 · 五种语言
 
@@ -94,16 +130,6 @@
 
 Panel 062 把复杂照片压缩成一个核心图形与少量辅助符号，以不稳定的黑色手绘线稿、大面积浅色留白和一处源图特征色，形成远看克制、近看亲切的编辑画面。
 
-<!-- xxd-panel-benefit:start -->
-## 快速判断：XXD Panel 062 适合你吗？
-
-| 你关心的问题 | 这套风格给你的回答 |
-|---|---|
-| **你会得到什么** | 用稚拙黑线和一枚源图强调色保留照片的聪明瞬间 |
-| **一眼可辨的特点** | 稚拙黑线 · 单一强调色 · 聪明笨拙 · 极浅纸底 · 编辑留白 |
-| **它如何尊重你的输入** | 保留输入中可辨认的身份、关系、结构与事实；风格化负责重新组织视觉语言，不把你的内容替换成无关模板。 |
-| **可以用在哪里** | 可生成上下、左右、纯设计画面和四端壁纸，并支持多个比例与准确尺寸；交付形式会变化，这套 Panel 的风格身份不会被稀释。 |
-<!-- xxd-panel-benefit:end -->
 
 <details>
 <summary><strong>完整能力与参数（需要时再展开）</strong></summary>
@@ -251,31 +277,6 @@ GPT Image 2 是默认首选，并继续执行本项目现有的高保真垫图�
 如果没有合适的生图通道，Skill 会请用户启用生图工具或提供 API Key。用户主动提供的凭据可以用于当前任务，但不得在回复或日志中回显、展示或泄露；未经用户明确要求，不会长期保存凭据或修改供应商、账户、计费及全局路由配置。
 
 </details>
-
-## 开始使用
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-062.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-062" ~/.codex/skills/xxd-panel-062
-```
-
-也可以直接使用 `npx skills` 安装：
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-062 --skill xxd-panel-062
-```
-
-该命令会从 GitHub 获取仓库，并把同名 Skill 安装到当前 Agent。若要安装到用户级 Codex Skills 目录，可在命令末尾加上 `--global --agent codex --yes`。
-
-Claude Code 用户可把同一文件夹链接到 `~/.claude/skills/xxd-panel-062`. 安装后请重启 Agent 会话。
-
-```text
-$xxd-panel-062
-Use this photograph, ask me for the modes and copy setting, then generate fresh raster outputs.
-```
-
-完整规格: [Skill 工作流](SKILL.md) · [原始风格档案](references/original-prompt/zh-CN.md) · [英文运行适配器](references/xxd-panel-062-prompt.en.md) · [中文运行适配器](references/xxd-panel-062-prompt.zh-CN.md)
 
 <!-- xxd-panel-catalog:start -->
 ## XXD Panel 历史目录
