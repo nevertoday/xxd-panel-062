@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 062｜Clever Clumsy Line: compresses the key subject, pose and relationship of a photo into one central figure and a few small symbols, drawn in loose, slightly clumsy black pen lines that wobble, break and show small corrections, on a near-white tinted paper ground, with a single accent colour taken from the photo used on only one or two tiny spots, generous planned whitespace and a few handwritten or minimal printed words. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-062 or asks for naive black line drawing, one-accent-colour minimal sketch or witty clumsy-line editorial art from a photo.",
+  "short_description": "聪明笨拙线：用稚拙黑线和一枚原照片强调色，留下照片里最聪明的一个瞬间",
+  "zh-CN": {
+    "name": "聪明笨拙线",
+    "tagline": "用稚拙黑线和一枚原照片里的颜色，画出照片里最值得记住的瞬间。",
+    "look": "照片被压缩成一个核心图形加几个小符号，主体身份和关键关系一眼能认出。线条是随手的黑色钢笔线，粗细不匀、略抖、会断开，还留着画错后的修正痕迹。底色是接近白色的浅色，略带原照片的冷暖；全画面只有一种从照片里取来的强调色，落在一两处很小的地方。大片留白，配一句随手写下的话或几个词，手写字和极简印刷字都可能出现。",
+    "traits": ["极简黑线", "单一强调色", "聪明笨拙", "浅色纸底", "专业留白"],
+    "good": [
+      "有一个小动作或小表情的照片：伸懒腰的猫、回头的人、递东西的手",
+      "两者之间关系清楚的画面：牵狗散步、两人对坐、一个人和一把伞",
+      "带一处鲜明颜色的照片：一件红外套、一朵黄花、一扇蓝窗"
+    ],
+    "poor": [
+      "需要保留大量细节的图：复杂机械、建筑立面、商品细节图",
+      "没有明确主体、全靠氛围和光影的照片，压缩后会只剩空白",
+      "想要多彩上色、完整背景或光滑矢量插画的需求"
+    ]
+  },
+  "en": {
+    "name": "Clever Clumsy Line",
+    "tagline": "Draws the one moment worth remembering in your photo with naive black lines and a single colour from the photo.",
+    "look": "The photo is reduced to one central figure and a few small symbols, and the subject and its key relationship stay easy to recognise. The lines are casual black pen strokes: uneven, slightly shaky, sometimes broken, with small corrections left in. The ground is a near-white tint that follows the photo's warmth or coolness, and the only colour is one accent taken from the photo, used on one or two tiny spots. Large areas stay empty, with a casual line of text or a few words in handwriting or minimal print.",
+    "traits": ["Minimal black line", "One accent colour", "Clever clumsiness", "Pale paper ground", "Considered whitespace"],
+    "good": [
+      "Photos built on a small gesture or expression: a cat stretching, a person looking back, a hand passing something",
+      "Scenes with a clear relationship between two things: walking a dog, two people sitting face to face, a person under an umbrella",
+      "Photos with one vivid colour: a red coat, a yellow flower, a blue window"
+    ],
+    "poor": [
+      "Images that depend on lots of detail: complex machinery, building facades, product close-ups",
+      "Mood-only photos with no clear subject, which reduce to almost nothing",
+      "Requests for full colour, a complete background or smooth vector illustration"
+    ]
+  },
+  "ja": {
+    "name": "賢くて不器用な線",
+    "tagline": "素朴な黒い線と写真から取った一色だけで、写真のいちばん覚えておきたい瞬間を描きます。",
+    "look": "写真は一つの中心となる形と少しの記号にまで絞り込まれ、主役と大事な関係はひと目でわかります。線は気ままな黒いペン線で、太さが揃わず、少し震え、途切れ、描き直しの跡も残ります。地は写真の色温度に寄せたほぼ白の淡い色で、色は写真から取ったアクセントカラー一色だけ、それも一、二か所のごく小さな部分にだけ置かれます。余白を大きくとり、手書きや簡素な活字でひと言か数語を添えます。",
+    "traits": ["ミニマルな黒線", "アクセントカラー一色", "賢い不器用さ", "淡い紙の地", "計算された余白"],
+    "good": [
+      "小さな動きや表情がある写真：伸びをする猫、振り返る人、物を手渡す手",
+      "二つのものの関係がはっきりした場面：犬の散歩、向かい合って座る二人、傘をさす人",
+      "鮮やかな色が一つある写真：赤いコート、黄色い花、青い窓"
+    ],
+    "poor": [
+      "細部をたくさん残したい画像：複雑な機械、建物のファサード、商品の細部写真",
+      "主役がなく雰囲気や光だけの写真（絞り込むとほとんど何も残りません）",
+      "多色塗り、背景まで描き込んだ絵、なめらかなベクターイラストを求める場合"
+    ]
+  },
+  "ko": {
+    "name": "영리하고 서툰 선",
+    "tagline": "서툰 검은 선과 사진 속 한 가지 색만으로 사진에서 가장 기억할 만한 순간을 그립니다.",
+    "look": "사진은 중심 형태 하나와 작은 기호 몇 개로 줄어들지만, 주인공과 핵심 관계는 한눈에 알아볼 수 있습니다. 선은 무심한 검은 펜 선으로 굵기가 고르지 않고 살짝 떨리며 끊기기도 하고, 고쳐 그린 흔적도 남습니다. 바탕은 사진의 색온도를 따른 거의 흰색에 가까운 연한 색이고, 색은 사진에서 뽑은 강조색 하나뿐이며 아주 작은 한두 곳에만 들어갑니다. 여백을 넓게 두고 손글씨나 간결한 활자로 한 문장이나 몇 단어를 곁들입니다.",
+    "traits": ["미니멀 검은 선", "강조색 하나", "영리한 서툶", "연한 종이 바탕", "계산된 여백"],
+    "good": [
+      "작은 동작이나 표정이 담긴 사진: 기지개 켜는 고양이, 뒤돌아보는 사람, 무언가를 건네는 손",
+      "둘 사이의 관계가 분명한 장면: 강아지 산책, 마주 앉은 두 사람, 우산을 쓴 사람",
+      "선명한 색이 하나 있는 사진: 빨간 코트, 노란 꽃, 파란 창문"
+    ],
+    "poor": [
+      "세부가 많이 필요한 이미지: 복잡한 기계, 건물 정면, 제품 디테일 컷",
+      "주인공 없이 분위기와 빛만 있는 사진(줄이고 나면 거의 남는 것이 없습니다)",
+      "여러 색 채색, 배경까지 채운 그림, 매끈한 벡터 일러스트를 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "خط ذكي وأخرق",
+    "tagline": "يرسم اللحظة الأجدر بالتذكّر في صورتك بخطوط سوداء عفوية ولون واحد مأخوذ من الصورة.",
+    "look": "تُختزل الصورة إلى شكل محوري واحد وبضعة رموز صغيرة، ويبقى العنصر الرئيسي وعلاقته الأساسية واضحين من النظرة الأولى. الخطوط ضربات قلم أسود عفوية، متفاوتة السماكة ومرتعشة قليلاً ومتقطعة أحياناً، وتبقى فيها آثار التصحيح. الخلفية لون فاتح قريب من الأبيض يتبع دفء الصورة أو برودتها، ولا يظهر إلا لون مميّز واحد من الصورة في موضع أو موضعين صغيرين جداً. تبقى مساحات واسعة فارغة، مع جملة عابرة أو كلمات قليلة بخط اليد أو بحرف مطبعي بسيط.",
+    "traits": ["خط أسود بسيط", "لون مميّز واحد", "خرق ذكي", "أرضية ورقية فاتحة", "فراغ مدروس"],
+    "good": [
+      "صور تقوم على حركة أو تعبير صغير: قطة تتمطّى، شخص يلتفت، يد تناول شيئاً",
+      "مشاهد فيها علاقة واضحة بين عنصرين: تنزيه كلب، شخصان جالسان متقابلين، شخص تحت مظلة",
+      "صور فيها لون زاهٍ واحد: معطف أحمر، زهرة صفراء، نافذة زرقاء"
+    ],
+    "poor": [
+      "صور تعتمد على تفاصيل كثيرة: آلات معقدة، واجهات مبانٍ، لقطات قريبة للمنتجات",
+      "صور أجواء بلا عنصر واضح، لا يبقى منها شيء تقريباً بعد الاختزال",
+      "طلب تلوين كامل أو خلفية مكتملة أو رسم متجهي أملس"
+    ]
+  }
+}
